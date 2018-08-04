@@ -12,6 +12,6 @@ A simple script that allows you to prank your friends with fast typing speed.
 
 
 ### Script
-```sh
+```javascript
 var n=document.querySelectorAll('[unselectable="on"]');var t="";n.forEach(function(n){t+=n.innerHTML});var e=0;document.getElementsByClassName("txtInput")[0].addEventListener("keypress",function(n){n.preventDefault();this.value+=t[e++]});
 ```
